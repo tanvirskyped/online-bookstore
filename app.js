@@ -13,7 +13,7 @@ console.log('Running on ' + port+'...');
 Genre = require('./models/genre');
 Book = require('./models/book');
 // connect to mongoose
-mongoose.connect('mongodb://localhost/bookstore', {
+mongoose.connect('mongodb://tanvir_blessed:Naz1bAAA@ds115085.mlab.com:15085/tanvirapp', {
 	useMongoClient: true,
 });
 var db = mongoose.connection;
